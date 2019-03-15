@@ -1,0 +1,57 @@
+.main-container{
+  /* 5 */
+  display: grid;
+  grid-template-rows: repeat(5, auto);
+}
+
+/* Profile section */
+.profile-container{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.avatar-container{
+
+}
+.user-info{
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+}
+.user-info p{
+  /* info item */
+}
+/* END Profile Section */
+
+/* Skills Section */
+.skills-container{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.skills-badges{
+  display: grid;
+  grid-auto-columns: auto;
+}
+/* END Skills Section */
+
+/* Projects Section */
+.projects-container{
+  display: grid;
+  grid-auto-rows: auto;
+}
+.project-item{
+  /* project item */
+}
+/* END Projects Section */
+
+/* Contact Section */
+.contact-container{
+  display: grid;
+  grid-template-rows: repeat(4, auto);;
+}
+/* END Contact Section */
+
+/* Links Section */
+.links-container{
+  display: grid;
+  grid-auto-columns: auto;
+}
+/* END Links Section */
