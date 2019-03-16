@@ -1,3 +1,7 @@
+body{
+  background: rgb(61,58,180);
+background: linear-gradient(90deg, rgba(61,58,180,1) 0%, rgba(29,239,253,1) 49%, rgba(165,69,252,1) 100%);
+}
 .main-container {
   /* 5 */
   display: grid;
@@ -6,7 +10,8 @@
 
 .top-nav {
   overflow: hidden;
-  background-color: #333;
+  background: rgb(174,183,238);
+  background: radial-gradient(circle, rgba(174,183,238,0.788953081232493) 0%, rgba(148,159,233,1) 100%);
 }
 
 .top-nav a {
@@ -25,7 +30,8 @@
 }
 
 .active {
-  background-color: green;
+  background: rgb(0,37,255);
+  background: radial-gradient(circle, rgba(0,37,255,0.7721463585434174) 0%, rgba(148,159,233,1) 100%);
   color: white;
 }
 
@@ -48,14 +54,21 @@
   width: 570px;
   height: 570px;
   border-radius: 100%;
+  border-color: solid black;
 }
 .user-info {
   display: grid;
   grid-template-rows: repeat(4, auto);
+  justify-content: center;
 }
 
 .user-info p {
-  /* info item */
+  margin: 0;
+  text-align: center;
+
+}
+#avatar-name{
+font-size: 78px;
 }
 
 /* END Profile Section */
@@ -128,4 +141,8 @@
     height: 150px;
   }
 
+#avatar-name{
+font-size: 30px;
+
+}
 }
