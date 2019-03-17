@@ -1,7 +1,7 @@
 body{
-  background: rgb(61,58,180);
-background: linear-gradient(90deg, rgba(61,58,180,1) 0%, rgba(29,239,253,1) 49%, rgba(165,69,252,1) 100%);
-background-repeat: no-repeat;
+  background-color: rgb(91,58,200);
+/* background: linear-gradient(90deg, rgba(61,58,180,1) 0%, rgba(29,239,253,1) 49%, rgba(165,69,252,1) 100%);
+background-repeat: no-repeat; */
 }
 .main-container {
   /* 5 */
