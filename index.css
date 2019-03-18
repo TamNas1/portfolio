@@ -1,3 +1,7 @@
+
+#siteseal{
+   font-size: 20px;
+}
 body {
   background-color: #dfe9e9;
   /* background: linear-gradient(90deg, rgba(61,58,180,1) 0%, rgba(29,239,253,1) 49%, rgba(165,69,252,1) 100%);
@@ -5,7 +9,11 @@ background-repeat: no-repeat; */
   font-family: "Allan";
   font-size: 22px;
 }
-
+.section-title {
+  /* margin: 0; */
+  text-align: center;
+  font-size: 45px;
+}
 .main-container {
   /* 5 */
   display: grid;
@@ -88,11 +96,7 @@ hr {
 
 /* END Profile Section */
 /* Skills Section */
-.skills-container p {
-  /* margin: 0; */
-  text-align: center;
-  font-size: 45px;
-}
+
 
 .skills-container {
   display: grid;
@@ -112,7 +116,7 @@ hr {
   flex: 1 0 200px;
   box-sizing: border-box;
   background: rgba(166, 99, 80, 0.7);
-  color: #171e42;
+  /* color: #171e42; */
   padding: 10px;
   margin-left: 10px;
   margin-top: 10px;
@@ -133,8 +137,8 @@ hr {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -10px;
-  margin-top: -10px;
+  /* margin-left: -10px; */
+  /* margin-top: -10px; */
 }
 
 .project-item {
@@ -143,7 +147,7 @@ hr {
   flex: 1 0 200px;
   box-sizing: border-box;
   background: rgba(166, 99, 80, 0.7);
-  color: #171e42;
+  /* color: #171e42; */
   padding: 10px;
   margin-left: 10px;
   margin-top: 10px;
@@ -165,9 +169,24 @@ hr {
 /* Links Section */
 .links-container {
   display: grid;
-  grid-template-rows: ;
+  grid-template-rows: auto auto;
 }
-
+.links-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.links-items a{
+  align-self: center;
+  margin: 10px;
+}
+.link-icon{
+  width: 200px;
+  height: 200px;
+}
+.link-icon:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 /* END Links Section */
 @media screen and (max-width: 600px) {
   .top-nav a:not(:first-child) {
@@ -205,13 +224,13 @@ hr {
     font-size: 30px;
   }
 
-  .user-info p {
+  .avatar-name {
     margin: 0;
     text-align: center;
     font-size: 22px;
   }
 
-  .skills-container p {
+  .section-title{
     margin: 1px;
     text-align: center;
     font-size: 30px;
@@ -232,11 +251,25 @@ hr {
   .projects-main-title {
     font-size: 30px;
     text-align: center;
-    margin: -20px;
+    /* margin: -20px; */
   }
 
   .project-item img {
     width: 80px;
     height: 80px;
   }
+.links-items{
+  justify-content: center;
+}
+
+  .links-items a{
+    width: 60px ;
+    height: 60px;
+  }
+  .link-icon{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
 }
