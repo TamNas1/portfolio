@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(91,58,200);
+  background-color: rgb(250,250,250);
 /* background: linear-gradient(90deg, rgba(61,58,180,1) 0%, rgba(29,239,253,1) 49%, rgba(165,69,252,1) 100%);
 background-repeat: no-repeat; */
 font-family: 'Allan';font-size: 22px;
@@ -12,7 +12,7 @@ font-family: 'Allan';font-size: 22px;
 
 .top-nav {
   overflow: hidden;
-  background: #e9efff;
+  background: rgb(174,183,238);
   background: radial-gradient(circle, rgba(174,183,238,0.788953081232493) 0%, rgba(148,159,233,1) 100%);
 }
 
