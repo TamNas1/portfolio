@@ -2,6 +2,7 @@ body{
   background-color: rgb(91,58,200);
 /* background: linear-gradient(90deg, rgba(61,58,180,1) 0%, rgba(29,239,253,1) 49%, rgba(165,69,252,1) 100%);
 background-repeat: no-repeat; */
+font-family: 'Allan';font-size: 22px;
 }
 .main-container {
   /* 5 */
@@ -11,7 +12,7 @@ background-repeat: no-repeat; */
 
 .top-nav {
   overflow: hidden;
-  background: rgb(174,183,238);
+  background: #e9efff;
   background: radial-gradient(circle, rgba(174,183,238,0.788953081232493) 0%, rgba(148,159,233,1) 100%);
 }
 
@@ -31,7 +32,7 @@ background-repeat: no-repeat; */
 }
 
 .active {
-  background: rgb(0,37,255);
+  background: rgb(240,210,240);
   background: radial-gradient(circle, rgba(0,37,255,0.7721463585434174) 0%, rgba(148,159,233,1) 100%);
   color: white;
 }
@@ -80,21 +81,38 @@ font-size: 78px;
 
 /* END Profile Section */
 /* Skills Section */
+.skills-container p{
+  margin: 0;
+  text-align: center;
+  font-size: 45px;
+}
 .skills-container {
   display: grid;
   grid-template-rows: auto auto;
 }
 
 .skills-badges {
-  display: grid;
-  grid-auto-columns: auto;
+  display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-top: -10px;
 }
-
+.skill-item{
+  display: grid;
+  grid-template-columns: auto auto;
+	flex: 1 0 200px;
+  box-sizing: border-box;
+  background: #5191f7;
+  color: #171e42;
+  padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
 /* END Skills Section */
 /* Projects Section */
 .projects-container {
   display: grid;
-grid-template-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 .projects-main-title{
   font-size:45px;
@@ -126,14 +144,13 @@ grid-template-rows: auto auto;
 .contact-container {
   display: grid;
   grid-template-rows: repeat(4, auto);
-  ;
 }
 
 /* END Contact Section */
 /* Links Section */
 .links-container {
   display: grid;
-  grid-auto-columns: auto;
+  grid-template-rows:
 }
 
 /* END Links Section */
@@ -175,6 +192,11 @@ font-size: 30px;
   margin: 0;
   text-align: center;
   font-size: 22px;
+}
+.skills-container p{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
 }
 hr{
   display: flex;
