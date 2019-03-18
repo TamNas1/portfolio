@@ -187,6 +187,13 @@ hr {
 .link-icon:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+.contact-container form{
+  margin: 0 auto;
+  width: 50%;
+}
+/* .pure-group{
+  width: 50%;
+} */
 /* END Links Section */
 @media screen and (max-width: 600px) {
   .top-nav a:not(:first-child) {
@@ -244,6 +251,7 @@ hr {
     border-radius: 5px;
     width: 75%;
     margin: 0px auto;
+    margin-top: 5px;
     padding: 0;
     justify-content: center;
   }
@@ -271,5 +279,6 @@ hr {
     height: 100%;
     border-radius: 50%;
   }
+
 
 }
